@@ -1,0 +1,24 @@
+{
+    "name": "AGPIAL",
+    "version": "0.1.0",
+    "description": "A good pilot, programmer, person is always learning. A mix of technology, aviation, aduiobooks avideo books for learning and education.",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/phillipjmurphy/agpial.com"
+    },
+    "keywords": [
+      "boogi",
+      "docs"
+    ],
+    "main": "n/a",
+    "scripts": {
+      "start": "node_modules/.bin/boogi develop",
+      "develop": "node_modules/.bin/boogi develop",
+      "build": "node_modules/.bin/boogi build",
+      "clean": "node_modules/.bin/boogi clean"
+    },
+    "dependencies": {
+        "boogi-cli": "0.4.0"
+    }
+  }
+  

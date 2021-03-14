@@ -1,0 +1,62 @@
+metadata:
+  name: AGPIAL
+  short_name: AGPIAL
+  description: >-
+    A good pilot, programmer, person is always learning. A mix of technology,
+    aviation, aduiobooks avideo books for learning and education.
+  language: en
+  url: 'https://www.agpial.com'
+  pathPrefix: /
+  gaTrackingId: null
+  favicon: /assets/favicon.png
+  themeColor: '#0066cc'
+header:
+  enabled: true
+  logo: /assets/logo.png
+  links: []
+sidebar:
+  ignoreIndex: false
+  forcedNavOrder: []
+  expanded: []
+  groups: []
+  links: []
+  poweredBy: {}
+  enabled: true
+pwa:
+  enabled: true
+  manifest:
+    icon: /assets/logo.png
+    display: minimal-ui
+    crossOrigin: anonymous
+features:
+  editOnRepo:
+    editable: true
+    location: 'https://github.com/phillipjmurphy/agpial.com'
+    type: github
+  search:
+    enabled: false
+    indexName: docs
+    showStats: true
+    pagination:
+      enabled: true
+  rss:
+    enabled: true
+    showIcon: true
+    copyright: ''
+    categories: []
+    matchRegex: ^/
+    outputPath: /rss.xml
+  darkMode:
+    enabled: true
+    default: false
+social:
+  facebook: 'https://www.facebook.com/agpial'
+  github: 'https://github.com/phillipjmurphy'
+  instagram: 'https://www.instagram.com/phillipjmurphy'
+  linkedin: 'https://www.linkedin.com/in/phillipjmurphy'
+  youtube: 'https://www.youtube.com/channel/UCf17bNL_DVN8QBQ1SbxIkmg'
+search:
+  enabled: true
+  startComponent: icon
+  pagination:
+    enabled: true
